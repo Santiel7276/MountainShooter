@@ -1,5 +1,3 @@
-from tty import IFLAG
-
 from code.Const import WIN_WIDTH, ENTITY_SPEED
 from code.Entity import Entity
 
