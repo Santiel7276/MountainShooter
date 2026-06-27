@@ -19,7 +19,7 @@ class EntityMediator:
 
 
     @staticmethod
-    def verify_health(health_list: list[Entity]):
+    def verify_health(entity_list):
         for ent in entity_list:
             if ent.health <= 0:
                 entity_list.remove(ent)
