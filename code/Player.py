@@ -7,7 +7,7 @@ from code.PlayerShot import PlayerShot
 
 
 class Player(Entity):
-    def __init__(self, name, position, ENTITY_SHOT_DELAY=None):
+    def __init__(self, name: str, position: tuple):
         super().__init__(name, position)
         self.shot_delay = ENTITY_SHOT_DELAY[self.name]
 
